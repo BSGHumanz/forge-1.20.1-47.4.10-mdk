@@ -19,7 +19,6 @@ import org.slf4j.Logger;
 @Mod(MyFirstMod.MOD_ID)
 public class MyFirstMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "myfirstmod";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
