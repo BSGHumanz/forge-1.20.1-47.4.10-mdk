@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(Items.DEEPSLATE);
 
                         pOutput.accept(ModBlocks.TAG_BLOCK.get());
+                        pOutput.accept(ModBlocks.ESSENCE_BLOCK.get());
                     })
                     .build());
 

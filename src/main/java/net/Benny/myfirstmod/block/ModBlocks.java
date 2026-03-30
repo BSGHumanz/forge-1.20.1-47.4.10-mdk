@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> TAG_BLOCK = registerBlock("tag_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE).sound(SoundType.ANVIL)));
 
+    public static final RegistryObject<Block> ESSENCE_BLOCK = registerBlock("essence_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.AIR).sound(SoundType.AZALEA_LEAVES)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
         RegistryObject<T> ToReturn = BLOCKS.register(name, block);
         registerBlockItem(name, ToReturn);
