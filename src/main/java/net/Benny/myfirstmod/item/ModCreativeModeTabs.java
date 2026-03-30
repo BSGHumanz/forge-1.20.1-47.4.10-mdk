@@ -1,6 +1,7 @@
 package net.Benny.myfirstmod.item;
 
 import net.Benny.myfirstmod.MyFirstMod;
+import net.Benny.myfirstmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,9 +21,12 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.KNIFE.get());
                         pOutput.accept(ModItems.EXPLOSIONPAPER.get());
+
                         pOutput.accept(Items.IRON_INGOT);
                         pOutput.accept(Items.STICK);
                         pOutput.accept(Items.DEEPSLATE);
+
+                        pOutput.accept(ModBlocks.TAG_BLOCK.get());
                     })
                     .build());
 

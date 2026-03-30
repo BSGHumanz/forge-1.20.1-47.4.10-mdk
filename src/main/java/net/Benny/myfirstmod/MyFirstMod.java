@@ -1,6 +1,7 @@
 package net.Benny.myfirstmod;
 
 import com.mojang.logging.LogUtils;
+import net.Benny.myfirstmod.block.ModBlocks;
 import net.Benny.myfirstmod.item.ModCreativeModeTabs;
 import net.Benny.myfirstmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -31,6 +32,7 @@ public class MyFirstMod
         IEventBus modEventBus = context.getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModCreativeModeTabs.register(modEventBus);
         // Register the commonSetup method for modloading

@@ -1,6 +1,8 @@
 {
-  "item.myfirstmod.knife": "Knife",
+  "item.myfirstmod.knife": "Kunai",
   "item.myfirstmod.explosion_paper": "Explosion paper",
+
+  "Block.myfirstmod.tag_block": "Block To Tag Kunai",
 
   "creative.mod_items_tab": "My First Mod Tab"
 }
