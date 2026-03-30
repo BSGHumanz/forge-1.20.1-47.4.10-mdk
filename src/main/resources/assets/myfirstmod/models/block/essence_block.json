@@ -1,5 +1,5 @@
 {
-  "parent": "minecrfat:block/cube_all",
+  "parent": "minecraft:block/cube_all",
   "textures": {
     "all": "myfirstmod:block/essence_block"
   }
