@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/anvil",
   "textures": {
-    "all": "myfirstmod:block/tag_block"
+    "top": "myfirstmod:block/tag_block",
+    "side": "myfirstmod:block/tag_block"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "varients": {
+  "variants": {
     "": {
-      "model": "myfirstmod:block/esssence_block"
+      "model": "myfirstmod:block/essence_block"
     }
   }
 
