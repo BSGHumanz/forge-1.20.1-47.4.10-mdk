@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "minecraft:anvil" },
+    { "item": "myfirstmod:knife" }
+  ],
+  "result": {
+    "item": "myfirstmod:tag_block", "count": 1
+  }
+}
