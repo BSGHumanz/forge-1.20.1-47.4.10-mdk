@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.KNIFE.get());
                         pOutput.accept(ModItems.EXPLOSIONPAPER.get());
+                        pOutput.accept(ModItems.CREEPERESSENCE.get());
 
                         pOutput.accept(Items.IRON_INGOT);
                         pOutput.accept(Items.STICK);
