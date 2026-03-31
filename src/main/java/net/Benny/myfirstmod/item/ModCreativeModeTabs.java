@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.KNIFE.get());
                         pOutput.accept(ModItems.EXPLOSIONPAPER.get());
                         pOutput.accept(ModItems.CREEPERESSENCE.get());
+                        pOutput.accept(ModItems.STONEESSENCE.get());
 
                         pOutput.accept(Items.IRON_INGOT);
                         pOutput.accept(Items.STICK);
@@ -29,6 +30,7 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.TAG_BLOCK.get());
                         pOutput.accept(ModBlocks.ESSENCE_BLOCK.get());
+                        pOutput.accept(ModBlocks.ESSENCE_ORE.get());
                     })
                     .build());
 
