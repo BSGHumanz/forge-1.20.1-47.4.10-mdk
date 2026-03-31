@@ -21,7 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, MyFirstMod.MOD_ID);
 
     public static final RegistryObject<Block> TAG_BLOCK = registerBlock("tag_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE).sound(SoundType.ANVIL)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.ANVIL).sound(SoundType.ANVIL)));
 
     public static final RegistryObject<Block> ESSENCE_BLOCK = registerBlock("essence_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK).sound(SoundType.AZALEA_LEAVES)));
