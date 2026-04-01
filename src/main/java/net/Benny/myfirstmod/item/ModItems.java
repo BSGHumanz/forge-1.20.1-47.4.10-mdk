@@ -24,6 +24,12 @@ public class ModItems {
     public static final RegistryObject<Item> STONEESSENCE = ITEMS.register("stone_essence",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> SKELETONESSENCE = ITEMS.register("skeleton_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WITHERSKELETONESSENCE = ITEMS.register("wither_skeleton_essence",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }

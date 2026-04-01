@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.EXPLOSIONPAPER.get());
                         pOutput.accept(ModItems.CREEPERESSENCE.get());
                         pOutput.accept(ModItems.STONEESSENCE.get());
+                        pOutput.accept(ModItems.SKELETONESSENCE.get());
+                        pOutput.accept(ModItems.WITHERSKELETONESSENCE.get());
 
                         pOutput.accept(Items.IRON_INGOT);
                         pOutput.accept(Items.STICK);
