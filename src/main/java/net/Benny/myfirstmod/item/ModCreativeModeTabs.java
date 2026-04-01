@@ -25,6 +25,14 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.STONEESSENCE.get());
                         pOutput.accept(ModItems.SKELETONESSENCE.get());
                         pOutput.accept(ModItems.WITHERSKELETONESSENCE.get());
+                        pOutput.accept(ModItems.BLAZEESSENCE.get());
+                        pOutput.accept(ModItems.BATESSENCE.get());
+                        pOutput.accept(ModItems.CATESSENCE.get());
+                        pOutput.accept(ModItems.ENDERMANESSENCE.get());
+                        pOutput.accept(ModItems.GHASTESSENCE.get());
+                        pOutput.accept(ModItems.SPIDERESSENCE.get());
+                        pOutput.accept(ModItems.WITCHESSENCE.get());
+                        pOutput.accept(ModItems.ZOMBIEESSENCE.get());
 
                         pOutput.accept(Items.IRON_INGOT);
                         pOutput.accept(Items.STICK);

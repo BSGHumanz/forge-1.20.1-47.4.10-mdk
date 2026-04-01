@@ -30,6 +30,34 @@ public class ModItems {
     public static final RegistryObject<Item> WITHERSKELETONESSENCE = ITEMS.register("wither_skeleton_essence",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> BLAZEESSENCE = ITEMS.register("blaze_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> BATESSENCE = ITEMS.register("bat_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> CATESSENCE = ITEMS.register("cat_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ENDERMANESSENCE = ITEMS.register("enderman_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> GHASTESSENCE = ITEMS.register("ghast_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SPIDERESSENCE = ITEMS.register("spider_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> WITCHESSENCE = ITEMS.register("witch_essence",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ZOMBIEESSENCE = ITEMS.register("zombie_essence",
+            () -> new Item(new Item.Properties()));
+
+
+
+
+
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);
     }
